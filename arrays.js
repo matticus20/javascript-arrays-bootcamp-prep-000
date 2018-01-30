@@ -25,7 +25,7 @@ function destructivelyAddElementToEndOfArray(cities, otherCity) {
 }
 
 function accessElementInArray(cities, index) {
-  return cities(index);
+  return cities(index)
 }
 
 var days = ["Monday", "Tuesday", "Wednesday"]
