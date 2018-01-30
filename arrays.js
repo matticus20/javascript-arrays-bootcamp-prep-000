@@ -12,7 +12,7 @@ function destructivelyAddElementToBeginningOfArray(countries, otherCountry) {
 }
 
 var cities = ["London", "Paris", "Tokyo"]
-var otherCity = ["Boston"]
+var otherCity = "Boston"
 function addElementToEndOfArray(cities, otherCity) {
   var moreCities = [cities, ...otherCity]
   return moreCities
