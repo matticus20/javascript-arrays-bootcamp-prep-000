@@ -36,7 +36,6 @@ function destructivelyRemoveElementFromBeginningOfArray(days) {
   return days
 }
 
-var days = ["Monday", "Tuesday", "Wednesday"]
 function removeElementFromBeginningofArray(days) {
   return days.slice(1)
 }
