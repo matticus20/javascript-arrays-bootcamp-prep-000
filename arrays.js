@@ -30,7 +30,8 @@ function accessElementInArray(array, index) {
 
 var days = ["Monday", "Tuesday", "Wednesday"]
 function destructivelyRemoveElementFromBeginningOfArray(days) {
-  return days.shift(0)
+  days.shift()
+  return days
 }
 
 function removeElementFromBeginningofArray(days) {
