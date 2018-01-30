@@ -8,7 +8,7 @@ function addElementToBeginningOfArray(countries, otherCountry) {
 }
 
 function destructivelyAddElementToBeginningOfArray(countries, otherCountry) {
-  return countries.unshift(otherCountry)
+  countries.unshift(otherCountry)
 }
 
 var cities = ["London", "Paris", "Tokyo"]
