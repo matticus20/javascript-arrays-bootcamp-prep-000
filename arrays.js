@@ -36,8 +36,8 @@ function destructivelyRemoveElementFromBeginningOfArray(days) {
   return days
 }
 
-function removeElementFromBeginningofArray(array) {
-  return array.slice(1)
+function removeElementFromBeginningofArray(days) {
+  return days.slice(1)
 }
 
 var iceCreams = ["chocolate", "vanilla", "raspberry"]
