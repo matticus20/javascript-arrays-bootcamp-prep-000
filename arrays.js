@@ -24,10 +24,8 @@ function destructivelyAddElementToEndOfArray(cities, otherCity) {
   return cities
 }
 
-function accessElementInArray(vehicles, index) {
-  vehicles = ["car", "truck", "bus", "motorcycle"]
-  index = "2"
-  return vehicles(index)
+function accessElementInArray(array, index) {
+  return array(index)
 }
 
 var days = ["Monday", "Tuesday", "Wednesday"]
