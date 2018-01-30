@@ -24,8 +24,10 @@ function destructivelyAddElementToEndOfArray(cities, otherCity) {
   return cities
 }
 
-function accessElementInArray(array, index) {
-  return array(index)
+var numbers = ["1", "2", "3", "4"]
+var index = 2
+function accessElementInArray(numbers, index) {
+  return numbers(index)
 }
 
 var days = ["Monday", "Tuesday", "Wednesday"]
