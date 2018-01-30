@@ -35,7 +35,7 @@ function destructivelyRemoveElementFromBeginningOfArray(days) {
 }
 
 function removeElementFromBeginningofArray(days) {
-  var newDays = days.slice(0)
+  var newDays = days.slice(1)
   return newDays
 }
 
