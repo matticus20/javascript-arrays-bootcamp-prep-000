@@ -24,7 +24,7 @@ function destructivelyAddElementToEndOfArray(cities, otherCity) {
   return cities
 }
 
-function accessElementInArray(array, index) {
+var accessElementInArray = function(array, index) {
   return array(index);
 }
 
