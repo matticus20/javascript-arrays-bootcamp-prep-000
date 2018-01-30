@@ -20,7 +20,8 @@ function addElementToEndOfArray(cities, otherCity) {
 }
 
 function destructivelyAddElementToEndOfArray(cities, otherCity) {
-  return cities.push(otherCity)
+  cities.push(otherCity)
+  return cities
 }
 
 function accessElementInArray(vehicles, index) {
